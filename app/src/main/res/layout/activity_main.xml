@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_content_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tv_score_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="0"
+        android:textSize="90sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btn_increment_action"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="AUGMENTER" />
+
+    <Button
+        android:id="@+id/btn_decrement_action"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="DIMINUER" />
+
+    <Button
+        android:id="@+id/btn_reset_action"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="REMETTRE À ZÉRO" />
+
+</LinearLayout>
